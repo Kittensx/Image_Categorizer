@@ -1,0 +1,89 @@
+{
+  "nsfw": {
+    "nudity": {
+      "full_nudity": ["completely exposed body", "no clothing covering key areas"],
+      "partial_nudity": ["partially exposed body", "clothing partially removed"],
+      "implied_nudity": ["fully covered but suggestive of nudity", "strategic covering with objects"]
+    },
+    "body_part_exposure": {
+      "upper_body": {
+        "breasts": {
+          "fully_exposed": ["no clothing covering breasts"],
+          "partially_exposed": ["breasts visible but covered", "nipple exposed"]
+        },
+        "male_chest": {
+          "shirtless_male": ["bare chest of a male", "topless man"]
+        },
+        "back": {
+          "partially_exposed": ["back partially visible"],
+          "fully_exposed": ["bare back with no covering"]
+        }
+      },
+      "lower_body": {
+        "buttocks": {
+          "partially_exposed": ["partially covered buttocks", "thong or sheer clothing"],
+          "fully_exposed": ["fully visible buttocks with no coverage"]
+        },
+        "genitals": {
+          "fully_exposed": ["penis, vulva, testicles visible"],
+          "partially_exposed": ["outline visible through clothing", "clothed but highly revealing"]
+        }
+      },
+      "other": {
+        "thighs": {
+          "partially_exposed": ["highly revealing shorts, skirt, or swimsuit"],
+          "fully_exposed": ["thighs completely visible"]
+        },
+        "stomach": {
+          "partially_exposed": ["visible abs, crop tops, lifted shirt"],
+          "fully_exposed": ["no clothing covering abdomen"]
+        },
+        "underwear": {
+          "visible_underwear": ["panties, boxers, briefs exposed"],
+          "suggestive_view": ["zoomed focus on underwear region"]
+        }
+      }
+    },
+    "kissing_intimacy": {
+      "kissing": {
+        "mouth_to_mouth": ["simple kissing on the lips"],
+        "deep_kissing": ["intense making out", "lip biting included"],
+        "neck_kissing": ["kissing focused on the neck"]
+      },
+      "intimate_touching": {
+        "waist_grasp": ["hands placed on waist in an intimate manner"],
+        "inner_thigh_touch": ["hand placed suggestively on inner thigh"],
+        "hand_under_shirt": ["hand inside shirt or clothing"]
+      },
+      "clothing_removal": {
+        "unbuttoning": ["shirt unbuttoning in an intimate context"],
+        "strap_falling": ["bra strap or dress strap slipping off shoulder"]
+      }
+    },
+    "suggestive_elements": {
+      "see_through_clothing": {
+        "lingerie": ["thin mesh fabric showing body parts"],
+        "wet_clothing": ["wet shirt or dress revealing body underneath"]
+      },
+      "revealing_swimsuits_lingerie": {
+        "bikini": ["highly revealing two-piece swimsuit"],
+        "thong": ["buttocks mostly visible in thong bikini"],
+        "bra_panties": ["lingerie set with high visibility"]
+      },
+      "focus_on_body_parts": {
+        "breasts": ["zoomed-in shot of breasts even if clothed"],
+        "buttocks": ["focus on rear in an emphasized way"],
+        "genital_area": ["close-up of pelvis area even if covered"]
+      },
+      "sexual_suggestive_pose": {
+        "spread_legs": ["legs positioned in a provocative manner"],
+        "bent_over": ["posture emphasizing buttocks"],
+        "accentuated_curves": ["pose emphasizing hips, waist, or chest"]
+      },
+      "object_suggestion": {
+        "covering_body": ["using arms or objects to cover but still suggest nudity"],
+        "strategic_placement": ["hiding nudity behind hands, pillows, or other objects"]
+      }
+    }
+  }
+}

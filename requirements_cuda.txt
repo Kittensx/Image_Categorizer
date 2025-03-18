@@ -1,0 +1,39 @@
+Install the correct version for CUDA for your hardware, before installing the rest of the requirements.txt file.
+
+To find out which version you need, first you need to know your CUDA version.
+
+Inside a cmd window (if windows), type "nvcc --version".
+
+Once you know your CUDA version, 
+
+find the right version.
+Once you know the right versio, execute the install like this below:
+
+Ensure you're inside a venv first!
+
+To create a venv, use this command:
+python -m venv venv
+
+Ensure you use python 3.10 to use the above command.
+If you have several versions of python installed on your computer, find version 3.10 then execute it like this:
+
+C:\Users\Joel\AppData\Local\Programs\Python\Python310\python.exe -m venv venv 
+
+Next, activate your venv.
+
+Inside the folder where you are installing the program, from a cmd window type:
+
+venv\scripts\activate
+
+upgrade pip and whl:
+python.exe -m pip install --upgrade whl
+python.exe -m pip install --upgrade pip
+
+After it has been activated, you can install programs. Because this program requires specific versions of things, you need to install using the correct version of python, as well as the requirements. It's possible that you can install the latest versions of programs, but if you do, they may not mesh well witth other programs. The version numbers of the requirements.txt file reflect the version of the programs when I created the program, and all of them work well together. If you deviate from those program versions in your install, you run the risk of some programs not working. My recommendation is too install the correct versions as listed. 
+
+For CUDA you'll need to install the version which works for your setup. For me, I need CUDA 11.8 as shown below. Your system may require a different version, and that is fine.
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+
+

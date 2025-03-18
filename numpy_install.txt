@@ -1,0 +1,8 @@
+Verify numpy version 1.24.4 is used. if not, uninstall:
+
+pip uninstall numpy -y
+
+
+Reinstall using version 1.24.4 so it is compatible with deepface and scikit
+
+pip install numpy==1.24.4

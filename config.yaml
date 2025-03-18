@@ -1,0 +1,20 @@
+image_folder: "images" 
+base_image_folder: 'images' #set to the location where you want to test
+
+
+
+output_format: "yaml"  # Options: "json", "txt", "yaml"
+execution_mode: "concurrent"  # Options: "single", "concurrent"
+model_paths:
+  yolov8: "repositories/yolo/"
+  blip: "repositories/blip/"
+  clip: "repositories/clip/"
+  deepface: "repositories/deepface/"  
+  yolo_pose: "repositories/yolo"
+  clip: "repositories/clip"
+  
+spacy_model: "en_core_web_md" #choose which version spacy you want to use. This is medium . you can also use large or small. Large may take longer but is more accurate, but also takes up more memory. Small might not work as well. Medium is a good midrange solution
+
+ 
+
+

@@ -1,0 +1,5 @@
+
+(from venv)
+python download_models.py
+
+

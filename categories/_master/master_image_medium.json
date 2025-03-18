@@ -1,0 +1,47 @@
+{
+  "image_medium": {
+    "photograph": {
+      "realistic_photo": ["digital photograph", "film photography", "HDR photo"],
+      "black_and_white": ["monochrome photography", "sepia photography"],
+      "vintage": ["old photo", "historical photo", "analog film scan"]
+    },
+    "drawing": {
+      "pencil_sketch": ["shaded drawing", "line art sketch", "rough pencil work"],
+      "ink": ["ink drawing", "black and white ink art", "cross-hatching"],
+      "charcoal": ["charcoal sketch", "smudged charcoal art"]
+    },
+    "painting": {
+      "oil_painting": ["thick brushstrokes", "oil on canvas", "realism oil painting"],
+      "watercolor": ["soft color blending", "watercolor on paper", "translucent colors"],
+      "acrylic": ["vibrant acrylic painting", "fast-drying paint"],
+      "digital_painting": ["digital brushwork", "Photoshop painting", "Procreate painting"]
+    },
+    "computer_generated": {
+      "3d_render": ["CGI model", "realistic 3D render", "game asset"],
+      "vector_art": ["clean line work", "Adobe Illustrator vector", "scalable digital art"],
+      "ai_generated": ["Stable Diffusion", "MidJourney", "DALL·E generated image"]
+    },
+    "traditional_print": {
+      "woodcut": ["block printing", "wood engraving"],
+      "lithograph": ["stone lithography", "fine art print"],
+      "screen_print": ["silkscreen", "poster print"]
+    },
+    "comics_manga": {
+      "western_comics": ["superhero comics", "graphic novel art"],
+      "manga": ["Japanese manga", "shonen manga", "shojo manga"],
+      "webtoon": ["digital comic format", "long vertical panels"],
+      "hentai": {
+        "general_hentai": ["NSFW anime-style illustration", "adult-themed anime art"],
+        "doujinshi": ["self-published hentai manga", "independent adult manga"],
+        "ecchi": ["softcore hentai", "suggestive anime art"],
+        "tentacle": ["fantasy-based hentai", "non-human interaction"],
+        "futa": ["futanari hentai", "intersex hentai characters"]
+      }
+    },
+    "abstract": {
+      "cubism": ["Picasso-style", "geometric abstraction"],
+      "surrealism": ["dreamlike art", "Dali-style surreal art"],
+      "expressionism": ["bold colors", "distorted figures"]
+    }
+  }
+}

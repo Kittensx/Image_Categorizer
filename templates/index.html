@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classification Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 20px; }
+        .item { display: flex; align-items: center; gap: 10px; }
+        .thumbnail { width: 100px; height: auto; cursor: pointer; }
+        .results { max-width: 350px; }
+        .category-title { font-weight: bold; border-bottom: 2px solid #333; margin-top: 5px; padding-bottom: 3px; }
+        .subcategory { margin-left: 15px; font-size: 0.9em; color: #555; }
+        .score { font-size: 0.75em; color: gray; margin-left: 5px; }
+        .lightbox { display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); background: rgba(0, 0, 0, 0.8); padding: 20px; }
+        .lightbox img { max-width: 500px; }
+        .lightbox-close { cursor: pointer; color: white; font-size: 20px; position: absolute; top: 10px; right: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Classification Results</h1>
+<div class="gallery">
+    {% for img in images %}
+    <div class="item">
+         <img src="{{ img.thumbnail }}" class="thumbnail" onclick="openLightbox('{{ img.full_image }}')">
+        <div class="results">
+            <strong>{{ img.filename }}</strong><br>
+            
+            {% if img.results %}
+                {% set category_dict = {} %}
+                {% for cat, score in img.results %}
+                    {% set main_cat, sub_cat = cat.split(" > ") if " > " in cat else (cat, None) %}
+                    {% if main_cat not in category_dict %}
+                        {% set _ = category_dict.update({main_cat: []}) %}
+                    {% endif %}
+                    {% if sub_cat %}
+                        {% set _ = category_dict[main_cat].append((sub_cat, score)) %}
+                    {% endif %}
+                {% endfor %}
+                
+                {% for main_cat, subcategories in category_dict.items() %}
+                    <div class="category-title">{{ main_cat }}</div>
+                    {% for sub_cat, score in subcategories %}
+                        <div class="subcategory">- {{ sub_cat }} <span class="score">({{ "%.2f"|format(score * 100) }}%)</span></div>
+                    {% endfor %}
+                {% endfor %}
+            {% else %}
+                <p>No category found</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- ✅ Lightbox for Full Image Display -->
+<div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">✖</span>
+    <img id="lightbox-img">
+</div>
+
+<script>
+    function openLightbox(imageSrc) {
+        document.getElementById("lightbox-img").src = imageSrc;  // ✅ Now correctly sets full-size image
+        document.getElementById("lightbox").style.display = "block";
+    }
+    function closeLightbox() {
+        document.getElementById("lightbox").style.display = "none";
+    }
+</script>
+
+</body>
+</html>

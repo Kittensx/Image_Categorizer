@@ -1,0 +1,1265 @@
+{
+    "clothing": {
+        "male_clothing": {
+            "formal": [
+                "suit",
+                "tuxedo",
+                "dress shirt",
+                "blazer",
+                "vest",
+                "tie",
+                "cufflinks"
+            ],
+            "casual": [
+                "t-shirt",
+                "polo shirt",
+                "jeans",
+                "chinos",
+                "cargo pants",
+                "shorts"
+            ],
+            "business": [
+                "dress shirt",
+                "slacks",
+                "loafers",
+                "belt",
+                "sports coat"
+            ],
+            "outerwear": [
+                "leather jacket",
+                "denim jacket",
+                "trench coat",
+                "winter coat",
+                "puffer jacket"
+            ],
+            "athletic": [
+                "tracksuit",
+                "basketball shorts",
+                "compression shirt",
+                "gym tank",
+                "sweatpants"
+            ],
+            "sleepwear": [
+                "pajama set",
+                "boxers",
+                "sweatpants",
+                "robe"
+            ],
+            "footwear": [
+                "dress shoes",
+                "sneakers",
+                "boots",
+                "sandals",
+                "loafers"
+            ],
+            "accessories": [
+                "watch",
+                "belt",
+                "wallet",
+                "cap",
+                "sunglasses",
+                "backpack"
+            ]
+        },
+        "female_clothing": {
+            "formal": [
+                "gown",
+                "cocktail dress",
+                "blouse",
+                "pencil skirt",
+                "heels",
+                "clutch"
+            ],
+            "casual": [
+                "tank top",
+                "jeans",
+                "leggings",
+                "crop top",
+                "shorts",
+                "sundress"
+            ],
+            "business": [
+                "blazer",
+                "blouse",
+                "trousers",
+                "pencil skirt",
+                "closed-toe heels"
+            ],
+            "outerwear": [
+                "wool coat",
+                "denim jacket",
+                "fur coat",
+                "trench coat",
+                "puffer jacket"
+            ],
+            "athletic": [
+                "yoga pants",
+                "sports bra",
+                "leggings",
+                "running shorts",
+                "tank top"
+            ],
+            "sleepwear": [
+                "nightgown",
+                "pajama set",
+                "silk robe",
+                "slippers"
+            ],
+            "footwear": [
+                "heels",
+                "flats",
+                "sandals",
+                "sneakers",
+                "boots"
+            ],
+            "accessories": [
+                "handbag",
+                "earrings",
+                "necklace",
+                "bracelet",
+                "scarf",
+                "hat",
+                "sunglasses"
+            ]
+        },
+        "non_gender_specific": {
+            "formal": [
+                "robe",
+                "kimono",
+                "tunic",
+                "cloak",
+                "cape"
+            ],
+            "casual": [
+                "sweatshirt",
+                "hoodie",
+                "overalls",
+                "cargo pants",
+                "joggers"
+            ],
+            "business": [
+                "blazer",
+                "button-up shirt",
+                "trousers",
+                "vest"
+            ],
+            "outerwear": [
+                "raincoat",
+                "poncho",
+                "windbreaker",
+                "puffer jacket"
+            ],
+            "athletic": [
+                "tracksuit",
+                "compression leggings",
+                "sweatpants",
+                "tank top"
+            ],
+            "sleepwear": [
+                "onesie",
+                "pajama set",
+                "robe",
+                "slippers"
+            ],
+            "footwear": [
+                "sneakers",
+                "flip-flops",
+                "boots",
+                "slip-ons"
+            ],
+            "accessories": [
+                "backpack",
+                "beanie",
+                "gloves",
+                "watch",
+                "scarf"
+            ]
+        },
+        "age_specific": {
+            "baby_clothing": {
+                "casual": [
+                    "onesie",
+                    "romper",
+                    "footed pajamas",
+                    "baby bodysuit",
+                    "soft pants"
+                ],
+                "formal": [
+                    "baby dress",
+                    "tiny suit",
+                    "tuxedo onesie",
+                    "fancy romper"
+                ],
+                "outerwear": [
+                    "baby jacket",
+                    "knit sweater",
+                    "snowsuit",
+                    "soft hoodie"
+                ],
+                "sleepwear": [
+                    "footed sleeper",
+                    "sleep sack",
+                    "soft onesie",
+                    "baby gown"
+                ],
+                "footwear": [
+                    "crib shoes",
+                    "socks",
+                    "booties"
+                ],
+                "accessories": [
+                    "bib",
+                    "bonnet",
+                    "mittens",
+                    "soft hat"
+                ]
+            },
+            "toddler_clothing": {
+                "casual": [
+                    "t-shirt",
+                    "overalls",
+                    "leggings",
+                    "elastic-waist pants",
+                    "shorts"
+                ],
+                "formal": [
+                    "mini dress",
+                    "little suit",
+                    "button-up shirt",
+                    "suspenders"
+                ],
+                "outerwear": [
+                    "puffer jacket",
+                    "raincoat",
+                    "knit cardigan"
+                ],
+                "sleepwear": [
+                    "two-piece pajama set",
+                    "nightgown",
+                    "soft robe"
+                ],
+                "footwear": [
+                    "velcro sneakers",
+                    "light-up shoes",
+                    "sandals"
+                ],
+                "accessories": [
+                    "sun hat",
+                    "mittens",
+                    "backpack"
+                ]
+            },
+            "child_clothing": {
+                "casual": [
+                    "graphic t-shirt",
+                    "jeans",
+                    "cargo shorts",
+                    "sundress",
+                    "leggings"
+                ],
+                "formal": [
+                    "dress shirt",
+                    "bow tie",
+                    "dress",
+                    "pleated skirt"
+                ],
+                "outerwear": [
+                    "windbreaker",
+                    "hooded jacket",
+                    "fleece pullover"
+                ],
+                "sleepwear": [
+                    "cartoon-themed pajamas",
+                    "onesie",
+                    "nightshirt"
+                ],
+                "footwear": [
+                    "sneakers",
+                    "boots",
+                    "crocs"
+                ],
+                "accessories": [
+                    "headband",
+                    "scarf",
+                    "baseball cap"
+                ]
+            },
+            "preteen_clothing": {
+                "casual": [
+                    "hoodie",
+                    "sweatpants",
+                    "denim shorts",
+                    "crop top"
+                ],
+                "formal": [
+                    "dress pants",
+                    "button-up shirt",
+                    "party dress",
+                    "blazer"
+                ],
+                "outerwear": [
+                    "puffer vest",
+                    "windbreaker",
+                    "light trench coat"
+                ],
+                "sleepwear": [
+                    "matching pajama set",
+                    "slippers",
+                    "comfy robe"
+                ],
+                "footwear": [
+                    "athletic shoes",
+                    "slip-ons",
+                    "ballet flats"
+                ],
+                "accessories": [
+                    "watch",
+                    "bracelet",
+                    "beanie"
+                ]
+            },
+            "teen_clothing": {
+                "casual": [
+                    "graphic hoodie",
+                    "ripped jeans",
+                    "athleisure wear",
+                    "crop top"
+                ],
+                "formal": [
+                    "dress suit",
+                    "cocktail dress",
+                    "tie",
+                    "heels"
+                ],
+                "outerwear": [
+                    "denim jacket",
+                    "leather jacket",
+                    "puffer coat"
+                ],
+                "sleepwear": [
+                    "shorts and tank set",
+                    "oversized t-shirt",
+                    "fleece pajamas"
+                ],
+                "footwear": [
+                    "high-top sneakers",
+                    "platform shoes",
+                    "boots"
+                ],
+                "accessories": [
+                    "earrings",
+                    "snapback cap",
+                    "backpack"
+                ]
+            },
+            "young_adult_clothing": {
+                "casual": [
+                    "slim-fit jeans",
+                    "hoodie",
+                    "graphic t-shirt",
+                    "sweater dress"
+                ],
+                "formal": [
+                    "business suit",
+                    "elegant dress",
+                    "dress shoes"
+                ],
+                "outerwear": [
+                    "trench coat",
+                    "pea coat",
+                    "quilted jacket"
+                ],
+                "sleepwear": [
+                    "silk pajamas",
+                    "lounge shorts",
+                    "robe"
+                ],
+                "footwear": [
+                    "dress shoes",
+                    "heels",
+                    "sneakers"
+                ],
+                "accessories": [
+                    "watch",
+                    "leather belt",
+                    "designer handbag"
+                ]
+            },
+            "adult_clothing": {
+                "casual": [
+                    "polished casual shirt",
+                    "chinos",
+                    "denim skirt"
+                ],
+                "formal": [
+                    "work blazer",
+                    "dress pants",
+                    "evening gown"
+                ],
+                "outerwear": [
+                    "wool coat",
+                    "blazer",
+                    "winter parka"
+                ],
+                "sleepwear": [
+                    "nightgown",
+                    "cotton pajama set"
+                ],
+                "footwear": [
+                    "loafers",
+                    "pumps",
+                    "work boots"
+                ],
+                "accessories": [
+                    "reading glasses",
+                    "wristwatch",
+                    "fashion scarf"
+                ]
+            },
+            "middle_aged_clothing": {
+                "casual": [
+                    "comfortable polo shirt",
+                    "linen pants",
+                    "floral blouse"
+                ],
+                "formal": [
+                    "business casual suit",
+                    "formal evening dress"
+                ],
+                "outerwear": [
+                    "overcoat",
+                    "vest",
+                    "fleece-lined jacket"
+                ],
+                "sleepwear": [
+                    "soft pajama set",
+                    "thermal nightwear"
+                ],
+                "footwear": [
+                    "comfortable flats",
+                    "loafers",
+                    "walking shoes"
+                ],
+                "accessories": [
+                    "sun hat",
+                    "reading glasses",
+                    "silk scarf"
+                ]
+            },
+            "elderly_clothing": {
+                "casual": [
+                    "loose-fitting button-up",
+                    "sweater vest",
+                    "stretch pants"
+                ],
+                "formal": [
+                    "dressy cardigan",
+                    "dress slacks",
+                    "long formal gown"
+                ],
+                "outerwear": [
+                    "long wool coat",
+                    "fleece jacket"
+                ],
+                "sleepwear": [
+                    "flannel pajamas",
+                    "nightgown",
+                    "compression socks"
+                ],
+                "footwear": [
+                    "orthopedic shoes",
+                    "house slippers",
+                    "easy-to-wear loafers"
+                ],
+                "accessories": [
+                    "hearing aid",
+                    "walking cane",
+                    "reading glasses"
+                ]
+            }
+        },
+        "temperature_specific": {
+            "hot_weather": {
+                "upper_body": [
+                    "tank top",
+                    "crop top",
+                    "loose t-shirt",
+                    "short-sleeve button-up",
+                    "linen shirt"
+                ],
+                "lower_body": [
+                    "shorts",
+                    "breezy skirt",
+                    "lightweight pants",
+                    "capri pants"
+                ],
+                "footwear": [
+                    "flip-flops",
+                    "sandals",
+                    "lightweight sneakers"
+                ],
+                "outerwear": [
+                    "light shawl",
+                    "linen cardigan"
+                ],
+                "accessories": [
+                    "sunglasses",
+                    "sun hat",
+                    "straw hat",
+                    "UV-protection sleeves",
+                    "light scarf"
+                ]
+            },
+            "warm_weather": {
+                "upper_body": [
+                    "polo shirt",
+                    "short-sleeve blouse",
+                    "light sweater",
+                    "thin long-sleeve shirt"
+                ],
+                "lower_body": [
+                    "jeans",
+                    "chinos",
+                    "midi skirt",
+                    "culottes"
+                ],
+                "footwear": [
+                    "canvas shoes",
+                    "loafers",
+                    "low-top sneakers"
+                ],
+                "outerwear": [
+                    "denim jacket",
+                    "windbreaker"
+                ],
+                "accessories": [
+                    "baseball cap",
+                    "light scarf",
+                    "wristbands"
+                ]
+            },
+            "cool_weather": {
+                "upper_body": [
+                    "sweater",
+                    "long-sleeve shirt",
+                    "thermal undershirt",
+                    "hoodie"
+                ],
+                "lower_body": [
+                    "leggings",
+                    "warm jeans",
+                    "corduroy pants",
+                    "thick skirt with tights"
+                ],
+                "footwear": [
+                    "ankle boots",
+                    "high-top sneakers",
+                    "thicker loafers"
+                ],
+                "outerwear": [
+                    "fleece jacket",
+                    "light coat",
+                    "puffer vest"
+                ],
+                "accessories": [
+                    "knit beanie",
+                    "gloves",
+                    "scarf"
+                ]
+            },
+            "cold_weather": {
+                "upper_body": [
+                    "wool sweater",
+                    "turtleneck",
+                    "thermal shirt",
+                    "heavy hoodie"
+                ],
+                "lower_body": [
+                    "insulated pants",
+                    "wool trousers",
+                    "thermal leggings",
+                    "thick skirt with fleece-lined tights"
+                ],
+                "footwear": [
+                    "snow boots",
+                    "insulated boots",
+                    "lined sneakers"
+                ],
+                "outerwear": [
+                    "heavy winter coat",
+                    "down jacket",
+                    "parka",
+                    "faux-fur coat"
+                ],
+                "accessories": [
+                    "thick scarf",
+                    "wool hat",
+                    "earmuffs",
+                    "thermal gloves",
+                    "balaclava"
+                ]
+            },
+            "extreme_cold_weather": {
+                "upper_body": [
+                    "fleece-lined jacket",
+                    "thermal base layer",
+                    "insulated parka"
+                ],
+                "lower_body": [
+                    "thermal snow pants",
+                    "fleece-lined leggings"
+                ],
+                "footwear": [
+                    "waterproof snow boots",
+                    "arctic-rated boots"
+                ],
+                "outerwear": [
+                    "full-length insulated coat",
+                    "heavy-duty winter gear"
+                ],
+                "accessories": [
+                    "heated gloves",
+                    "goggles",
+                    "face mask",
+                    "fur-lined hat",
+                    "neck gaiter"
+                ]
+            }
+        },
+        "fashion": {
+            "casual": [
+                "graphic t-shirt",
+                "jeans",
+                "sneakers",
+                "crop top",
+                "hoodie"
+            ],
+            "streetwear": [
+                "oversized hoodie",
+                "cargo pants",
+                "high-top sneakers",
+                "beanie"
+            ],
+            "formal": [
+                "gown",
+                "tuxedo",
+                "blazer",
+                "heels",
+                "cufflinks"
+            ],
+            "luxury": [
+                "designer dress",
+                "tailored suit",
+                "handmade shoes",
+                "expensive accessories"
+            ],
+            "alternative": [
+                "gothic coat",
+                "punk jacket",
+                "ripped jeans",
+                "combat boots"
+            ],
+            "vintage": [
+                "1950s dress",
+                "bell-bottom jeans",
+                "classic trench coat"
+            ]
+        },
+        "work": {
+            "corporate": [
+                "business suit",
+                "dress shirt",
+                "tie",
+                "blazer",
+                "slacks"
+            ],
+            "casual office": [
+                "polo shirt",
+                "chinos",
+                "button-up shirt",
+                "loafers"
+            ],
+            "blue-collar": [
+                "overalls",
+                "work boots",
+                "tool belt",
+                "high-visibility vest"
+            ],
+            "medical": [
+                "scrubs",
+                "lab coat",
+                "nurse uniform",
+                "medical clogs"
+            ],
+            "hospitality": [
+                "waiter vest",
+                "chef coat",
+                "bartender apron",
+                "formal shoes"
+            ],
+            "military": [
+                "camouflage uniform",
+                "tactical boots",
+                "beret",
+                "combat gear"
+            ]
+        },
+        "school": {
+            "standard": [
+                "t-shirt",
+                "jeans",
+                "sneakers",
+                "backpack"
+            ],
+            "private_school_uniform": [
+                "blazer",
+                "pleated skirt",
+                "tie",
+                "oxford shoes"
+            ],
+            "sports_uniform": [
+                "athletic jersey",
+                "shorts",
+                "track pants",
+                "cleats"
+            ],
+            "college_wear": [
+                "university hoodie",
+                "denim jacket",
+                "sweatpants"
+            ],
+            "graduation": [
+                "graduation gown",
+                "cap and tassel",
+                "diploma holder"
+            ]
+        },
+        "uniforms": {
+            "police": [
+                "police jacket",
+                "bulletproof vest",
+                "utility belt"
+            ],
+            "firefighter": [
+                "fire-resistant suit",
+                "helmet",
+                "heavy-duty boots"
+            ],
+            "postal_service": [
+                "postal uniform",
+                "mailbag",
+                "comfortable shoes"
+            ],
+            "security": [
+                "security vest",
+                "ID badge",
+                "black dress shoes"
+            ],
+            "sports_referee": [
+                "striped referee shirt",
+                "whistle",
+                "black pants"
+            ]
+        },
+        "traditional": {
+            "european": [
+                "Scottish kilt",
+                "dirndl dress",
+                "beret"
+            ],
+            "asian": [
+                "kimono",
+                "hanbok",
+                "cheongsam"
+            ],
+            "middle_eastern": [
+                "thobe",
+                "abaya",
+                "hijab"
+            ],
+            "african": [
+                "dashiki",
+                "kaftan",
+                "gele headwrap"
+            ],
+            "native_american": [
+                "buckskin dress",
+                "war bonnet",
+                "moccasins"
+            ]
+        },
+        "specialty": {
+            "wedding": {
+                "bride": {
+                    "female": [
+                        "wedding gown",
+                        "veil",
+                        "tiara",
+                        "bridal gloves",
+                        "wedding heels",
+                        "bridal robe"
+                    ],
+                    "transgender_female": [
+                        "custom-fitted wedding gown",
+                        "corset support dress",
+                        "lace gloves",
+                        "custom bridal shoes",
+                        "veil",
+                        "hair accessories"
+                    ]
+                },
+                "groom": {
+                    "male": [
+                        "tuxedo",
+                        "dress shoes",
+                        "bow tie",
+                        "cummerbund",
+                        "pocket square"
+                    ],
+                    "transgender_male": [
+                        "tailored tuxedo",
+                        "waistcoat",
+                        "dress boots",
+                        "silk tie",
+                        "cufflinks"
+                    ]
+                },
+                "wedding_party": {
+                    "male": [
+                        "groomsman suit",
+                        "dress shirt",
+                        "vest",
+                        "leather dress shoes",
+                        "necktie"
+                    ],
+                    "female": [
+                        "bridesmaid dress",
+                        "heels",
+                        "clutch bag",
+                        "bolero jacket",
+                        "hairpiece"
+                    ],
+                    "transgender_male": [
+                        "tailored groomsman suit",
+                        "dress loafers",
+                        "vest",
+                        "necktie"
+                    ],
+                    "transgender_female": [
+                        "custom bridesmaid dress",
+                        "heels",
+                        "bracelet",
+                        "floral hair accessory"
+                    ]
+                },
+                "guests": {
+                    "male": [
+                        "dress shirt",
+                        "blazer",
+                        "dress pants",
+                        "formal loafers",
+                        "tie"
+                    ],
+                    "female": [
+                        "cocktail dress",
+                        "evening gown",
+                        "heels",
+                        "elegant clutch"
+                    ],
+                    "transgender_male": [
+                        "tailored dress shirt",
+                        "slim-fit dress pants",
+                        "oxford shoes"
+                    ],
+                    "transgender_female": [
+                        "custom evening dress",
+                        "flats or heels",
+                        "necklace",
+                        "shawl"
+                    ]
+                }
+            },
+            "costume": {
+                "male": {
+                    "cosplay": [
+                        "superhero costume",
+                        "anime character outfit",
+                        "sci-fi armor",
+                        "video game character"
+                    ],
+                    "halloween": [
+                        "vampire suit",
+                        "werewolf costume",
+                        "zombie outfit",
+                        "pirate costume"
+                    ],
+                    "fantasy": [
+                        "medieval knight armor",
+                        "wizard robe",
+                        "viking warrior outfit",
+                        "steampunk adventurer"
+                    ],
+                    "historical": [
+                        "Roman centurion",
+                        "samurai armor",
+                        "cowboy outfit",
+                        "Victorian gentleman"
+                    ],
+                    "military_reenactment": [
+                        "WWII soldier uniform",
+                        "Napoleonic officer coat",
+                        "Civil War uniform"
+                    ],
+                    "mascot": [
+                        "sports team mascot",
+                        "theme park character suit",
+                        "furry costume"
+                    ]
+                },
+                "female": {
+                    "cosplay": [
+                        "anime schoolgirl outfit",
+                        "magical girl dress",
+                        "video game heroine",
+                        "sci-fi bodysuit"
+                    ],
+                    "halloween": [
+                        "witch costume",
+                        "vampire dress",
+                        "fairy wings outfit",
+                        "ghostly bride"
+                    ],
+                    "fantasy": [
+                        "elven princess gown",
+                        "sorceress robe",
+                        "steampunk corset dress",
+                        "warrior queen armor"
+                    ],
+                    "historical": [
+                        "Renaissance dress",
+                        "Victorian gown",
+                        "flapper dress",
+                        "samurai female warrior"
+                    ],
+                    "military_reenactment": [
+                        "WWII nurse uniform",
+                        "female officer coat",
+                        "historical battlefield medic"
+                    ],
+                    "mascot": [
+                        "cute animal mascot",
+                        "cartoon princess costume",
+                        "theme park character suit"
+                    ]
+                },
+                "unisex": {
+                    "cosplay": [
+                        "robot costume",
+                        "cyberpunk outfit",
+                        "alien character",
+                        "sci-fi space suit"
+                    ],
+                    "halloween": [
+                        "pumpkin costume",
+                        "mummy wrap outfit",
+                        "classic ghost sheet"
+                    ],
+                    "fantasy": [
+                        "grim reaper robe",
+                        "mystic monk outfit",
+                        "time traveler"
+                    ],
+                    "historical": [
+                        "Egyptian pharaoh robe",
+                        "medieval peasant",
+                        "caveman outfit"
+                    ],
+                    "military_reenactment": [
+                        "WWI trench coat",
+                        "medieval foot soldier",
+                        "Napoleonic soldier"
+                    ],
+                    "mascot": [
+                        "inflatable dinosaur",
+                        "food mascot suit",
+                        "cartoon animal character"
+                    ]
+                }
+            },
+            "swimwear": {
+                "male": [
+                    "swim trunks",
+                    "board shorts",
+                    "speedo",
+                    "rash guard"
+                ],
+                "female": [
+                    "one-piece swimsuit",
+                    "bikini",
+                    "tankini",
+                    "monokini",
+                    "swim dress"
+                ],
+                "unisex": [
+                    "wetsuit",
+                    "rash guard",
+                    "swim cap"
+                ]
+            },
+            "winter_sports": {
+                "skiing": {
+                    "male": [
+                        "ski jacket",
+                        "insulated ski pants",
+                        "thermal base layer",
+                        "ski gloves",
+                        "ski goggles"
+                    ],
+                    "female": [
+                        "fitted ski jacket",
+                        "ski bibs",
+                        "thermal leggings",
+                        "fur-lined gloves",
+                        "women's ski goggles"
+                    ],
+                    "unisex": [
+                        "waterproof ski suit",
+                        "ski helmet",
+                        "heated gloves",
+                        "neck gaiter"
+                    ]
+                },
+                "snowboarding": {
+                    "male": [
+                        "snowboard jacket",
+                        "baggy snow pants",
+                        "base layer shirt",
+                        "snowboard gloves",
+                        "wrap-around goggles"
+                    ],
+                    "female": [
+                        "tailored snowboard jacket",
+                        "stretch snow pants",
+                        "thermal top",
+                        "mittens",
+                        "women's snowboard goggles"
+                    ],
+                    "unisex": [
+                        "all-weather snowboard suit",
+                        "impact-resistant helmet",
+                        "UV-protection goggles",
+                        "wrist guards"
+                    ]
+                },
+                "ice_skating": {
+                    "male": [
+                        "fitted skating jacket",
+                        "thermal tights",
+                        "performance gloves",
+                        "figure skates"
+                    ],
+                    "female": [
+                        "competition skating dress",
+                        "fleece-lined leggings",
+                        "grip gloves",
+                        "women\u2019s figure skates"
+                    ],
+                    "unisex": [
+                        "practice skating sweater",
+                        "stretch pants",
+                        "knit gloves",
+                        "hockey skates"
+                    ]
+                },
+                "ice_hockey": {
+                    "male": [
+                        "padded hockey jersey",
+                        "hockey shorts",
+                        "shin guards",
+                        "padded gloves",
+                        "hockey skates"
+                    ],
+                    "female": [
+                        "tailored hockey jersey",
+                        "padded leggings",
+                        "compression top",
+                        "protective gloves",
+                        "women's hockey skates"
+                    ],
+                    "unisex": [
+                        "full hockey uniform",
+                        "protective helmet",
+                        "mouthguard",
+                        "hockey stick"
+                    ]
+                },
+                "sledding": {
+                    "male": [
+                        "insulated parka",
+                        "snow pants",
+                        "thermal socks",
+                        "sledding boots"
+                    ],
+                    "female": [
+                        "fitted winter coat",
+                        "fleece-lined leggings",
+                        "wool socks",
+                        "sledding mittens"
+                    ],
+                    "unisex": [
+                        "puffer jacket",
+                        "waterproof snow pants",
+                        "thermal balaclava",
+                        "grip snow boots"
+                    ]
+                },
+                "cross_country_skiing": {
+                    "male": [
+                        "lightweight ski jacket",
+                        "breathable snow pants",
+                        "moisture-wicking base layer",
+                        "insulated gloves"
+                    ],
+                    "female": [
+                        "slim-fit cross-country jacket",
+                        "stretch leggings",
+                        "thermal base layer",
+                        "touchscreen gloves"
+                    ],
+                    "unisex": [
+                        "cross-country ski suit",
+                        "windproof gloves",
+                        "thermal headband",
+                        "ski poles"
+                    ]
+                }
+            },
+            "martial_arts": [
+                "karate gi",
+                "judo uniform",
+                "black belt"
+            ],
+            "dancewear": [
+                "ballet tutu",
+                "tap dance shoes",
+                "leotard"
+            ]
+        },
+        "underwear": {
+            "male": [
+                "boxers",
+                "briefs",
+                "boxer briefs",
+                "trunks",
+                "jockstrap",
+                "long johns"
+            ],
+            "female": [
+                "bikini panties",
+                "thong",
+                "boyshorts",
+                "high-waisted briefs",
+                "lace lingerie",
+                "shapewear",
+                "slip",
+                "girdle"
+            ],
+            "unisex": [
+                "thermal underwear",
+                "compression shorts",
+                "seamless underwear"
+            ]
+        },
+        "workout clothing": {
+            "male": {
+                "tops": [
+                    "compression shirt",
+                    "tank top",
+                    "moisture-wicking t-shirt",
+                    "long-sleeve athletic shirt"
+                ],
+                "bottoms": [
+                    "gym shorts",
+                    "joggers",
+                    "compression leggings",
+                    "sweatpants"
+                ],
+                "footwear": [
+                    "running shoes",
+                    "cross-training shoes",
+                    "weightlifting shoes"
+                ],
+                "outerwear": [
+                    "lightweight hoodie",
+                    "track jacket",
+                    "windbreaker"
+                ],
+                "accessories": [
+                    "gym gloves",
+                    "sweatband",
+                    "sports cap",
+                    "fitness tracker"
+                ]
+            },
+            "female": {
+                "tops": [
+                    "sports bra",
+                    "crop top",
+                    "fitted tank top",
+                    "moisture-wicking t-shirt",
+                    "long-sleeve athletic shirt"
+                ],
+                "bottoms": [
+                    "yoga pants",
+                    "leggings",
+                    "biker shorts",
+                    "sweatpants"
+                ],
+                "footwear": [
+                    "running shoes",
+                    "cross-training shoes",
+                    "aerobic shoes"
+                ],
+                "outerwear": [
+                    "zip-up hoodie",
+                    "fleece jacket",
+                    "windbreaker"
+                ],
+                "accessories": [
+                    "headband",
+                    "gym gloves",
+                    "sports cap",
+                    "fitness tracker"
+                ]
+            },
+            "unisex": {
+                "tops": [
+                    "loose workout t-shirt",
+                    "breathable tank top",
+                    "sweat-wicking long-sleeve"
+                ],
+                "bottoms": [
+                    "track pants",
+                    "compression leggings",
+                    "gym shorts"
+                ],
+                "footwear": [
+                    "neutral running shoes",
+                    "barefoot training shoes"
+                ],
+                "outerwear": [
+                    "light hoodie",
+                    "training jacket",
+                    "thermal pullover"
+                ],
+                "accessories": [
+					"wrist wraps",
+                    "water bottle",
+                    "sweatband",
+                    "gym bag"
+                ]
+            }
+        }
+    }
+}
+	

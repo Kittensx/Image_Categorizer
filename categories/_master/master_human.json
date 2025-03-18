@@ -1,0 +1,440 @@
+{
+    "human": {
+        "age": {
+            "baby": [
+                "large head relative to body",
+                "round face",
+                "soft features",
+                "short limbs",
+                "undeveloped muscles",
+                "plump body",
+                "smooth skin"
+            ],
+            "toddler": [
+                "chubby cheeks",
+                "short limbs",
+                "small nose",
+                "round face",
+                "soft skin",
+                "proportionally large head",
+                "developing coordination"
+            ],
+            "child": [
+                "slim face",
+                "smaller nose",
+                "high forehead",
+                "thin limbs",
+                "growing body proportions",
+                "baby fat decreasing"
+            ],
+            "preteen": [
+                "elongated limbs",
+                "slim body",
+                "more defined facial features",
+                "growing jawline",
+                "some baby fat remains"
+            ],
+            "teen": [
+                "taller stature",
+                "more muscular definition (males)",
+                "curvier figure (females)",
+                "acne or smooth skin",
+                "stronger jawline",
+                "high energy"
+            ],
+            "young adult": [
+                "fully developed facial features",
+                "smooth or slightly textured skin",
+                "stronger bone structure",
+                "peak physical condition"
+            ],
+            "adult": [
+                "slightly thicker body frame",
+                "visible muscle tone",
+                "minor wrinkles beginning",
+                "mature facial features",
+                "balanced proportions"
+            ],
+            "middle aged": [
+                "visible wrinkles",
+                "thicker skin texture",
+                "loss of muscle tone",
+                "slightly sagging skin",
+                "graying hair possible",
+                "more defined facial lines"
+            ],
+            "elderly": [
+                "wrinkled skin",
+                "thinner hair or balding",
+                "frail body",
+                "sagging skin",
+                "reduced muscle mass",
+                "age spots",
+                "bony facial structure"
+            ]
+        },
+        "human_fitness": {
+            "elite_athlete": "peak_condition",
+            "highly_fit": "excellent_fitness",
+            "moderately_fit": "active_lifestyle",
+            "average_fitness": "moderate_activity",
+            "below_average": "low_activity",
+            "out_of_shape": "poor_endurance",
+            "sedentary": "minimal_activity",
+            "obese": "severely_overweight"
+        },
+        "human body shape": {
+            "ectomorph": "slim_narrow",
+            "mesomorph": "muscular_athletic",
+            "endomorph": "rounded_soft",
+            "hourglass": "balanced_curves",
+            "pear": "wider_hips",
+            "apple": "wider_upper_body",
+            "rectangle": "even_proportions",
+            "inverted_triangle": "broad_shoulders",
+            "oval": "rounded_midsection",
+            "diamond": "narrow_shoulders_wide_hips"
+        },
+        "ethnicity": {
+            "asian": "east_asian_south_asian",
+            "black": "african_afro_caribbean",
+            "white": "european_caucasian",
+            "hispanic": "latin_american_spanish",
+            "middle_eastern": "arabic_persian_turkic",
+            "indigenous": "native_american_pacific_islander",
+            "east_asian": "chinese_japanese_korean",
+            "south_asian": "indian_pakistani_bangladeshi",
+            "african": "sub_saharan_west_african",
+            "afro_caribbean": "haitian_jamaican_trinidadian",
+            "european": "northern_southern_eastern_western",
+            "latin_american": "mexican_brazilian_argentine",
+            "native_american": "navajo_cherokee_sioux",
+            "pacific_islander": "polynesian_micronesian_melanesian",
+            "arabic": "levantine_gulf_berber",
+            "persian": "iranian_tajik_afghan",
+            "turkic": "turkish_uzbek_kazakh"
+        },
+        "hair": {
+            "hair color": {
+                "black": "deep_black",
+                "dark_brown": [
+                    "rich_brown",
+                    "brunette"
+                ],
+                "light_brown": [
+                    "warm_brown",
+                    "dirty brown"
+                ],
+                "blonde": "golden_blonde",
+                "red": "copper_red",
+                "auburn": "reddish_brown",
+                "gray": "natural_gray",
+                "white": "pure_white",
+                "blue": "dyed_blue",
+                "green": "dyed_green",
+                "pink": "dyed_pink",
+                "purple": "dyed_purple",
+                "silver": "dyed_silver",
+                "rainbow": "multi_color"
+            },
+            "hair_styles": {
+                "natural": "no hair dyes",
+                "dyed": "not natural hair",
+                "bald": "no_hair",
+                "buzz_cut": "very_short",
+                "short": "above_ears",
+                "medium": "shoulder_length",
+                "long": "below_shoulders",
+                "very_long": "waist_length",
+                "straight": "smooth_hair",
+                "wavy": "soft_waves",
+                "curly": "defined_curls",
+                "coily": "tight_coils",
+                "kinky": "afro_texture",
+                "ponytail": "tied_back",
+                "bun": "coiled_up",
+                "braids": "woven_hair",
+                "dreadlocks": "rope_locks",
+                "pigtails": "dual_tied",
+                "updo": "formal_upstyle",
+                "mohawk": "shaved_sides",
+                "fade": "tapered_sides",
+                "undercut": "shaved_under",
+                "bob_cut": "chin_length_cut",
+                "pixie_cut": "very_short_cut",
+                "shag": "layered_messy",
+                "mullet": "short_front_long_back",
+                "afro": "rounded_volume",
+                "side_part": "one_sided_part",
+                "middle_part": "center_parted",
+                "wigs": "toupee"
+            }
+        },
+        "eye_color": {
+            "natural eye color": {
+                "brown eye color": "dark_brown",
+                "light_brown eye color": "warm_brown",
+                "hazel eye color": "greenish_brown",
+                "amber eye color": "golden_brown",
+                "blue eye color": "deep_blue",
+                "light blue eye color": "icy_blue",
+                "gray eye color": "cool_gray",
+                "green eye color": "vibrant_green",
+                "violet eye color": "rare_violet",
+                "red eye color": "albino_red"
+            },
+            "enhanced eye color": {
+                "brown": "contacts_brown",
+                "blue": "contacts_blue",
+                "green": "contacts_green",
+                "gray": "contacts_gray",
+                "hazel": "contacts_hazel",
+                "violet": "contacts_violet",
+                "pink": "contacts_pink",
+                "gold": "contacts_gold",
+                "silver": "contacts_silver",
+                "black_sclera": "contacts_black_sclera",
+                "white_sclera": "contacts_white_sclera"
+            },
+            "artificial": {
+                "brown": "prosthetic_brown",
+                "blue": "prosthetic_blue",
+                "green": "prosthetic_green",
+                "gray": "prosthetic_gray",
+                "hazel": "prosthetic_hazel",
+                "violet": "prosthetic_violet",
+                "gold": "prosthetic_gold",
+                "silver": "prosthetic_silver",
+                "black": "prosthetic_black",
+                "white": "prosthetic_white",
+                "custom_design": "prosthetic_custom"
+            }
+        },
+        "anatomy": {
+            "head": {
+                "skull": "cranial_bone",
+                "face": "facial_structure",
+                "eyes": "ocular_region",
+                "nose": "nasal_structure",
+                "mouth": "oral_cavity",
+                "ears": "auditory_system",
+                "jaw": "mandibular_bone"
+            },
+            "torso": {
+                "neck": "cervical_region",
+                "shoulders": "deltoid_area",
+                "chest": "thoracic_cavity",
+                "ribcage": "costal_structure",
+                "abdomen": "abdominal_region",
+                "back": "dorsal_region",
+                "waist": "lumbar_area",
+                "pelvis": "pelvic_region"
+            },
+            "arms": {
+                "upper_arm": "brachial_region",
+                "elbow": "cubital_joint",
+                "forearm": "antebrachial_region",
+                "wrist": "carpal_joint",
+                "hand": "manual_region",
+                "fingers": "phalanges"
+            },
+            "legs": {
+                "thigh": "femoral_region",
+                "knee": "patellar_joint",
+                "shin": "tibial_region",
+                "calf": "gastrocnemius_region",
+                "ankle": "tarsal_joint",
+                "foot": "pedal_region",
+                "toes": "phalanges_toes"
+            },
+            "internal_organs": {
+                "heart": "cardiac_muscle",
+                "lungs": "pulmonary_system",
+                "stomach": "digestive_organ",
+                "liver": "hepatic_system",
+                "kidneys": "renal_system",
+                "brain": "cerebral_cortex",
+                "intestines": "gastrointestinal_tract",
+                "bladder": "urinary_system",
+                "pancreas": "endocrine_system",
+                "spleen": "lymphatic_organ"
+            }
+        },
+        "male": {
+            "handsome": [
+                "strong jawline",
+                "high cheekbones",
+                "symmetrical face",
+                "straight nose",
+                "thick eyebrows",
+                "defined muscles",
+                "athletic build"
+            ],
+            "normal": [
+                "average facial symmetry",
+                "neutral jawline",
+                "moderate cheekbones",
+                "medium build",
+                "balanced features"
+            ],
+            "ugly": [
+                "asymmetrical face",
+                "weak jawline",
+                "flat or receding chin",
+                "wide nose",
+                "thin eyebrows",
+                "pudgy or lanky frame"
+            ]
+        },
+        "female": {
+            "beautiful": [
+                "symmetrical face",
+                "large eyes",
+                "high cheekbones",
+                "small nose",
+                "full lips",
+                "slim or hourglass figure"
+            ],
+            "normal": [
+                "moderate facial symmetry",
+                "average cheekbones",
+                "medium lips",
+                "neutral build"
+            ],
+            "ugly": [
+                "asymmetrical face",
+                "small or sunken eyes",
+                "flat nose",
+                "thin lips",
+                "square or unbalanced face",
+                "stocky or unshapely figure"
+            ]
+        },
+        "nonbinary": {
+            "attractive": [
+                "balanced facial features",
+                "soft but defined jawline",
+                "high cheekbones",
+                "expressive eyes",
+                "lean or athletic build"
+            ],
+            "normal": [
+                "moderate facial symmetry",
+                "neutral facial structure",
+                "medium build"
+            ],
+            "unattractive": [
+                "strong asymmetry",
+                "flat or undefined features",
+                "receding chin",
+                "wide nose",
+                "awkward body proportions"
+            ]
+        },
+        "baby": [
+            "large head relative to body",
+            "round face",
+            "soft features",
+            "short limbs",
+            "undeveloped muscles",
+            "plump body",
+            "smooth skin"
+        ],
+        "toddler": [
+            "chubby cheeks",
+            "short limbs",
+            "small nose",
+            "round face",
+            "soft skin",
+            "proportionally large head",
+            "developing coordination"
+        ],
+        "child": [
+            "slim face",
+            "smaller nose",
+            "high forehead",
+            "thin limbs",
+            "growing body proportions",
+            "baby fat decreasing"
+        ],
+        "preteen": [
+            "elongated limbs",
+            "slim body",
+            "more defined facial features",
+            "growing jawline",
+            "some baby fat remains"
+        ],
+        "teen": [
+            "taller stature",
+            "more muscular definition (males)",
+            "curvier figure (females)",
+            "acne or smooth skin",
+            "stronger jawline",
+            "high energy"
+        ],
+        "young adult": [
+            "fully developed facial features",
+            "smooth or slightly textured skin",
+            "stronger bone structure",
+            "peak physical condition"
+        ],
+        "adult": [
+            "slightly thicker body frame",
+            "visible muscle tone",
+            "minor wrinkles beginning",
+            "mature facial features",
+            "balanced proportions"
+        ],
+        "middle aged": [
+            "visible wrinkles",
+            "thicker skin texture",
+            "loss of muscle tone",
+            "slightly sagging skin",
+            "graying hair possible",
+            "more defined facial lines"
+        ],
+        "elderly": [
+            "wrinkled skin",
+            "thinner hair or balding",
+            "frail body",
+            "sagging skin",
+            "reduced muscle mass",
+            "age spots",
+            "bony facial structure"
+        ],
+        "elite_athlete": "peak_condition",
+        "highly_fit": "excellent_fitness",
+        "moderately_fit": "active_lifestyle",
+        "average_fitness": "moderate_activity",
+        "below_average": "low_activity",
+        "out_of_shape": "poor_endurance",
+        "sedentary": "minimal_activity",
+        "obese": "severely_overweight",
+        "ectomorph": "slim_narrow",
+        "mesomorph": "muscular_athletic",
+        "endomorph": "rounded_soft",
+        "hourglass": "balanced_curves",
+        "pear": "wider_hips",
+        "apple": "wider_upper_body",
+        "rectangle": "even_proportions",
+        "inverted_triangle": "broad_shoulders",
+        "oval": "rounded_midsection",
+        "diamond": "narrow_shoulders_wide_hips",
+        "asian": "east_asian_south_asian",
+        "black": "african_afro_caribbean",
+        "white": "european_caucasian",
+        "hispanic": "latin_american_spanish",
+        "middle_eastern": "arabic_persian_turkic",
+        "indigenous": "native_american_pacific_islander",
+        "east_asian": "chinese_japanese_korean",
+        "south_asian": "indian_pakistani_bangladeshi",
+        "african": "sub_saharan_west_african",
+        "afro_caribbean": "haitian_jamaican_trinidadian",
+        "european": "northern_southern_eastern_western",
+        "latin_american": "mexican_brazilian_argentine",
+        "native_american": "navajo_cherokee_sioux",
+        "pacific_islander": "polynesian_micronesian_melanesian",
+        "arabic": "levantine_gulf_berber",
+        "persian": "iranian_tajik_afghan"
+    }
+}
