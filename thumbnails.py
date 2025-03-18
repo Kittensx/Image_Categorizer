@@ -23,7 +23,7 @@ class ThumbnailCreator(ConfigManager):
         if xy is not None:
             x,y = xy, xy #sets both to the same value
         
-        image_index = load_image_index()
+        image_index = self.load_image_index()
         
         for image_name, data in image_index.items():
             image_path = data["image_path"]
