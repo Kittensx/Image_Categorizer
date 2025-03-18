@@ -200,9 +200,9 @@ class DownloadModels(ConfigManager):
             "ArcFace": "arcface_weights.h5",
             "Dlib": "dlib_face_recognition_resnet_model_v1.dat",
             "SFace": "face_recognition_sface_2021dec.onnx",
-            "Age": "age_model_weights.h5",
-            "Gender": "gender_model_weights.h5",
-            "Emotion": "facial_expression_model_weights.h5",
+            #"Age": "age_model_weights.h5", #no longer created with DeepFace.build_model(model_name)
+            #"Gender": "gender_model_weights.h5", #no longer created with DeepFace.build_model(model_name)
+            #"Emotion": "facial_expression_model_weights.h5", #no longer created with DeepFace.build_model(model_name)
             "DeepFace": "VGGFace2_DeepFace_weights_val-0.9034.h5"
         }
 
@@ -252,12 +252,17 @@ class DownloadModels(ConfigManager):
 
 
 
-    def download_deepdanbooru(self, MODEL_URL=None):
+    def download_deepdanbooru(self, url=None):
         """Downloads and extracts the DeepDanbooru model to the repositories folder."""
         
         MODEL_FOLDER = "repositories/deepdanbooru"
-        MODEL_ZIP = os.path.join(MODEL_FOLDER, "deepdanbooru.zip")
-        MODEL_URL=MODEL_URL if MODEL_URL is not None else "https://github.com/KichangKim/DeepDanbooru/releases/download/v3-20211112-sgd-e28/deepdanbooru-v3-20211112-sgd-e28.zip"
+        os.makedirs(MODEL_FOLDER, exist_ok=True)
+        save_path = os.path.join(MODEL_FOLDER, "deepdanbooru.zip")
+        os.makedirs(os.path.dirname(save_path), exist_ok=True)
+        
+        url=url if url is not None else "https://github.com/KichangKim/DeepDanbooru/releases/download/v3-20211112-sgd-e28/deepdanbooru-v3-20211112-sgd-e28.zip"
+        
+               
         
         REQUIRED_FILES = [
             "model-resnet_custom_v3.h5",
@@ -270,32 +275,34 @@ class DownloadModels(ConfigManager):
             "tags-log.json"
             
         ]
-        os.makedirs(MODEL_FOLDER, exist_ok=True)
+        
+        headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36"
+        }
 
+        
         # Check if all required files exist
         missing_files = [file for file in REQUIRED_FILES if not os.path.exists(os.path.join(MODEL_FOLDER, file))]
         
-        if missing_files:
-            print("✅ DeepDanbooru model already exists. Skipping download.")
-            return  # Exit the function early if files exist
-        else:
-            print(f"📥 Downloading DeepDanbooru model from {MODEL_URL}...")
+        if missing_files:            
+            print(f"📥 Downloading DeepDanbooru model from {url}...")
             
             # Download the model
-            response = requests.get(MODEL_URL, stream=True)
+            response = requests.get(url, headers=headers, stream=True)
             if response.status_code == 200:
-                with open(MODEL_ZIP, "wb") as file:
-                    for chunk in response.iter_content(chunk_size=1024):
+                with open(save_path, "wb") as file:
+                    for chunk in response.iter_content(chunk_size=8192):
                         file.write(chunk)
-                print("✅ Download complete!")
+                print("✅ DeepDanbooru model downloaded successfully!")
+        
 
                 # Extract the zip file
                 print("📂 Extracting model...")
-                with zipfile.ZipFile(MODEL_ZIP, "r") as zip_ref:
+                with zipfile.ZipFile(save_path, "r") as zip_ref:
                     zip_ref.extractall(MODEL_FOLDER)
 
                 # Cleanup: Remove ZIP after extraction
-                os.remove(MODEL_ZIP)
+                os.remove(save_path)
                 print("✅ Model extracted successfully!")
             else:
                 print(f"❌ Failed to download model. HTTP Status: {response.status_code}")
