@@ -2,13 +2,14 @@ from flask import Flask, render_template
 import json
 import os
 from PIL import Image
-from gallery_summary import generate_gallery_summary  # ✅ Import the summary function
+from gallery_summary import GallerySummary  # ✅ Import the summary function
 
 app = Flask(__name__)
 
 # ✅ Define paths
 IMAGE_INDEX_FILE = "image_index.json"
 THUMBNAIL_FOLDER = "static/thumbnails"
+gallery_summary = GallerySummary()
 
 def load_image_index():
     """Loads the image index file if it exists."""
@@ -53,7 +54,7 @@ def index():
         })
 
     # ✅ Generate gallery-wide DeepDanbooru summary
-    gallery_summary = generate_gallery_summary()
+    gallery_summary = gallery_summary.generate_gallery_summary()
 
     return render_template("index.html", images=images, gallery_summary=gallery_summary)
 
